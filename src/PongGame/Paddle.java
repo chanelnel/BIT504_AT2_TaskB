@@ -26,11 +26,11 @@ public class Paddle implements Runnable{
 		case 1:
 			if(e.getKeyCode() == KeyEvent.VK_W) {
 				setYDirection(-1);
+			}
 			if(e.getKeyCode() == KeyEvent.VK_S) {
 				setYDirection(1);
 			}
 			break;
-			}
 		case 2:
 			if(e.getKeyCode() == KeyEvent.VK_UP) {
 				setYDirection(-1);
