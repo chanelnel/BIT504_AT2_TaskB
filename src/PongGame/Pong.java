@@ -35,6 +35,10 @@ public class Pong extends JFrame {
 	public static void main(String[] args) {
 		Pong pg = new Pong();
 		
+		// Show a startup message explaining the game controls
+		JOptionPane.showMessageDialog(null, "Welcome to Pong! \nPlayer 1 Controls:\nUp: W, Down: S\nPlayer 2 Controls:\nUp: Up Arrow, Down: Down Arrow");
+		
+		
 		//create and start threads.
 		Thread ball = new Thread(b);
 		ball.start();
